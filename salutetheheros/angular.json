@@ -33,7 +33,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["../node_modules/bootstrap/dist/js/bootstrap.js"]
           },
           "configurations": {
             "production": {
@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "salutetheheros"
+  "defaultProject": "salutetheheros",
+  "cli": {
+    "analytics": "cdc147e8-9eea-45e1-8683-de0d51662fe6"
+  }
 }

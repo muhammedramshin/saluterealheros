@@ -1,0 +1,28 @@
+.navbar{
+   background: linear-gradient(to right bottom, #2B411C, #5B7742, #1c222e, #2B411C);
+   color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+color: #fff;
+}
+
+@media (min-width: 768px) {
+    
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+       
+    }
+    
+    .navbar-nav > li {
+        display: inline-block;
+        float:none;
+        padding-left: 30px;
+        
+    }
+    }

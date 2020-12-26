@@ -1,12 +1,15 @@
 .navbar{
-   background: linear-gradient(to right bottom, #2B411C, #5B7742, #1c222e, #2B411C);
+//    background: linear-gradient(to right bottom, #2B411C, #5B7742, #1c222e, #2B411C);
    color: #fff;
+//    background-color: #fff!important;
+   background-image: url(../../assets/bg-army.jpg);
+   border-bottom: 1px solid black;
 }
 .navbar-brand{
-    color: #fff;
+    color: rgb(61, 14, 14);
 }
 .navbar-light .navbar-nav .nav-link{
-color: #fff;
+color: rgb(139, 34, 34);
 }
 
 @media (min-width: 768px) {

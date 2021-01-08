@@ -21,7 +21,10 @@ export class HomeComponent implements OnInit {
 }
 openDialog() {
   console.log("called");
-  const dialogRef = this.dialog.open(DonateComponent);
+  const dialogRef = this.dialog.open(DonateComponent, 
+    {
+      data: { name: 'austin' },
+    });
 
   dialogRef.afterClosed().subscribe(result => {
     console.log(`Dialog result: ${result}`);

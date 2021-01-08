@@ -1,0 +1,95 @@
+
+#donate{
+    background-image: url(../../../assets/bg-army.jpg);
+}
+.h-1{
+    text-align: center;
+    padding: 15px;
+}
+
+.card{
+    min-height: 300px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 1px 5px 1px lightgray;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+.card-img img{
+    width: 100%;
+     height: 180px;
+}
+.d{
+    display: block;
+}
+.d-1{
+    display: inline-block;
+    padding: 5px;
+    font-weight: 600;
+    width: 75%;
+
+}
+.d-2{
+    padding: 7px;
+    float: right;
+    font-size: 13px;
+    color: #949494;
+
+}
+.d-3{
+    padding: 5px;
+   font-weight: 600;
+   
+    color: #028850;
+
+}
+.btn-donate{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(111, 111, 240);
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+
+}
+.btn-donate:hover{
+    background-color: blue;
+}
+.progress-out{
+    margin-left: 10px;
+    
+    background-color: cadetblue;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+
+}
+.progress-in{
+    background-color: rgb(41, 47, 48);
+    min-width: 10%;
+    width: 60%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.btn-more{
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}

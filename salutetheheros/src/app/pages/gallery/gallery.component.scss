@@ -1,0 +1,10 @@
+.profile:nth-child(odd){
+    background-color: burlywood;
+    height: 300px;
+    border: 1px  solid black;
+}
+.profile:nth-child(even){
+    background-color: rgba(176, 231, 154, 0.582);
+    height: 300px;
+    border: 1px  solid black;
+}

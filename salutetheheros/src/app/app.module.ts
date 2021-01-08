@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { CasesComponent } from './pages/cases/cases.component';
 import { DonateComponent } from './pages/donate/donate.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { DonateComponent } from './pages/donate/donate.component';
     BrowserModule,
     AppRoutingModule,
     MatDialogModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
     
   ],
   providers: [],
